@@ -1,0 +1,170 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "container|align": "stretch",
+        "designer|userClassName": "SectionForm",
+        "designer|userAlias": "section_form",
+        "layout": "vbox",
+        "bodyPadding": 10,
+        "title": "Section",
+        "fieldDefaults": [
+            "{",
+            "    labelAlign: 'top',",
+            "    msgTarget: 'side'",
+            "}"
+        ]
+    },
+    "designerId": "f1f79319-d268-4957-a801-a21cf8babff5",
+    "cn": [
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top"
+            },
+            "designerId": "6279529f-6f64-4986-b19c-c031ff60035b",
+            "cn": [
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "action": "save-section",
+                        "layout|flex": null,
+                        "text": "Save"
+                    },
+                    "designerId": "f1b6ad48-5ad3-4c49-b065-04b786a12c30",
+                    "customConfigs": [
+                        {
+                            "group": "(Custom Properties)",
+                            "name": "action",
+                            "type": "string"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Hidden",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "fieldLabel": "Label",
+                        "name": "id"
+                    },
+                    "designerId": "74d8d274-41e3-4137-b223-dd05aadab08c"
+                }
+            ]
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "dock": null,
+                "container|align": "stretch",
+                "layout": "hbox"
+            },
+            "designerId": "deb2e294-85c4-47d2-a63c-bd68ce6944ff",
+            "cn": [
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "layout|margins": "0 6 0 0",
+                        "fieldLabel": "Title",
+                        "labelAlign": "top",
+                        "name": "title",
+                        "maxLength": 100
+                    },
+                    "designerId": "53e19790-6402-426c-b62e-e82ff900c521"
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 0.6,
+                        "layout|margins": "0 6 0 0",
+                        "fieldLabel": "Tags",
+                        "labelAlign": "top",
+                        "name": "tags"
+                    },
+                    "designerId": "444970ab-a9d4-406a-8b0e-997da8bbb425"
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 0.6,
+                        "layout|margins": null,
+                        "designer|displayName": "Status",
+                        "fieldLabel": "Status",
+                        "name": "status_id",
+                        "store": "Status",
+                        "valueField": "id"
+                    },
+                    "designerId": "ae3a28d4-0c26-439e-952b-0aa8e8107596"
+                }
+            ]
+        },
+        {
+            "type": "Ext.form.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 0.3,
+                "fieldLabel": "Description",
+                "name": "description"
+            },
+            "designerId": "050aa9f7-950d-4ab4-b803-a08624dd5b52"
+        },
+        {
+            "type": "Ext.form.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "fieldLabel": "Content",
+                "name": "content"
+            },
+            "designerId": "c18e8c43-25fa-4d10-bdd5-75dd2dbee927"
+        }
+    ]
+}

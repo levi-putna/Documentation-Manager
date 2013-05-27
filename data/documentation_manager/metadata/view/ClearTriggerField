@@ -1,0 +1,15 @@
+{
+    "type": "Ext.form.field.Trigger",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "ClearTriggerField",
+        "designer|userAlias": "clear_trigger_field",
+        "fieldLabel": null,
+        "triggerCls": "x-form-clear-trigger"
+    },
+    "designerId": "5c0c3df2-35e3-490f-b7df-72d78cfa9323"
+}

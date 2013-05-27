@@ -1,0 +1,37 @@
+{
+    "name":"admin",
+    "description":"Admin framework for faster and easier web development.",
+    "version":"2.3.0",
+    "keywords":["Admin"],
+    "homepage":"#",
+    "author":"Levi Putna",
+    "scripts":{
+        "test":"make test"
+    }, "repository":{
+    "type":"git",
+    "url":"#"
+},
+    "licenses":[
+        {
+            "type":"Apache-2.0",
+            "url":"http://www.apache.org/licenses/LICENSE-2.0"
+        }
+    ],
+
+    "config": {
+        "vendor-dir": "webapp/protected/packages"
+    },
+
+    "autoload":{
+        "psr-0":{
+            "config":"./"
+        }
+    },
+
+    "require":{
+        "php": ">=5.3.2",
+        "twitter/bootstrap":"dev-master",
+        "yiisoft/yii":"dev-master",
+        "yii-twbs/yiistrap": "dev-master"
+    }
+}

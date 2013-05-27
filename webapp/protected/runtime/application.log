@@ -1,0 +1,525 @@
+2013/05/24 10:14:18 [error] [exception.CException] exception 'CException' with message 'Property "Section.Index" is not defined.' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Index')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/models/Section.php(204): CActiveRecord->__get('Index')
+#2 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(632): Section->getOrder()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(141): ApiController->getTreeEncode(Array)
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionList()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/document_tree/?_dc=1369354457965&sort=%5B%7B%22property%22%3A%22leaf%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:20:01 [error] [exception.CException] exception 'CException' with message 'Property "Section.Index" is not defined.' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Index')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/models/Section.php(204): CActiveRecord->__get('Index')
+#2 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(632): Section->getOrder()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(141): ApiController->getTreeEncode(Array)
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionList()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/document_tree/?_dc=1369354800954&sort=%5B%7B%22property%22%3A%22leaf%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:22:11 [error] [exception.CException] exception 'CException' with message 'Property "Section.Index" is not defined.' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Index')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/models/Section.php(204): CActiveRecord->__get('Index')
+#2 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(632): Section->getOrder()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(141): ApiController->getTreeEncode(Array)
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionList()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/document_tree/?_dc=1369354931082&sort=%5B%7B%22property%22%3A%22leaf%22%2C%22direction%22%3A%22ASC%22%7D%2C%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:23:00 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'leaf' in 'order clause'. The SQL statement executed was: SELECT * FROM `document` `t` ORDER BY `leaf` ASC.
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php (134)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 10:23:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'leaf' in 'order clause'. The SQL statement executed was: SELECT * FROM `document` `t` ORDER BY `leaf` ASC' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/CDbCommand.php:543
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/CDbCommand.php(396): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(1301): CDbCommand->queryAll()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(1420): CActiveRecord->query(Object(CDbCriteria), true)
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(134): CActiveRecord->findAll(Object(CDbCriteria))
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionList()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/document_tree/?_dc=1369354979299&sort=%5B%7B%22property%22%3A%22leaf%22%2C%22direction%22%3A%22ASC%22%7D%2C%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:23:43 [error] [exception.CException] exception 'CException' with message 'Property "Section.Index" is not defined.' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(145): CComponent->__get('Index')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/models/Section.php(204): CActiveRecord->__get('Index')
+#2 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(632): Section->getOrder()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php(141): ApiController->getTreeEncode(Array)
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): ApiController->actionList()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('api/list')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/api/document_tree/?_dc=1369355023486&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:26:31 [error] [php] Undefined offset: 1 (/Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php:288)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): ApiController->runAction()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/document_tree/?_dc=1369355191129
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php (288)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 10:26:31 [error] [php] Undefined offset: 1 (/Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php:288)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): ApiController->runAction()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): ApiController->runActionWithFilters()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): ApiController->run()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/api/document_tree/?_dc=1369355191279
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/ApiController.php (288)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 10:37:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structuredApi/list".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structuredApi/l...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369355869954&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:38:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369355930580&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:39:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369355972729&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:40:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356009404&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:40:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356043934&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:41:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structuredApi/list".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structuredApi/l...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356087599&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:41:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "StructuredApi/list".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('StructuredApi/l...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356111609&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:42:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "StructuredAPI/list".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('StructuredAPI/l...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356169390&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:43:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356198918&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:44:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured/list".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured/list')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356282364&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "list".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php:483
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(270): CController->missingAction('list')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/list')
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#4 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356316202&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:46:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "ac/list".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('ac/list')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356361850&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=root
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356985400
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356985551
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356985667
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 10:56:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/?_dc=1369356985769
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:35:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document_tree/Document-1".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document_tree/Document-1?_dc=1369359358750&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Document-1".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Document-1?_dc=1369359904302&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:45:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Document-1".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Document-1?_dc=1369359956143&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:46:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Document-1".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Document-1?_dc=1369359956143&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+---
+2013/05/24 11:47:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/root-1".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/root-1?_dc=1369359956143&sort=[{%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22}]&node=Document-1
+---
+2013/05/24 11:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Document-1".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Document-1?_dc=1369359956143&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+---
+2013/05/24 11:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Document-1".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Document-1?_dc=1369359956143&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document-1
+---
+2013/05/24 11:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Section-8".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Section-8?_dc=1369360119693
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:48:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Section-10".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Section-10?_dc=1369360119845
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Section-13".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Section-13?_dc=1369360119948
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:48:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Section-3".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Section-3?_dc=1369360120048
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:49:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Section-8".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Section-8?_dc=1369360159413
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:54:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Section-10".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Section-10?_dc=1369360466030
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:54:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Section-10".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Section-10?_dc=1369360481135
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:58:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Section-3".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Section-3?_dc=1369360686479
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 11:59:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/document/Document/1".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/document/Document/1?_dc=1369360786042&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=Document%2F1
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 12:01:16 [error] [php] Undefined offset: 1 (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:152)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/document?_dc=1369360875450&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=document
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (152)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 12:08:55 [error] [php] Undefined offset: 1 (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:197)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/document/1?_dc=1369361335709&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=document%2F1
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (197)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 12:10:28 [error] [php] Undefined variable: node (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:143)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/document?_dc=1369361426353&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=document
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (143)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 12:10:58 [error] [php] Undefined offset: 1 (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:149)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/document?_dc=1369361456720&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=document
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (149)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 12:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/8".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/8?_dc=1369361588113
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 12:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/10".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/10?_dc=1369361588254
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 12:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/13".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/13?_dc=1369361588398
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 12:13:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/3".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/3?_dc=1369361588586
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 12:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/10".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/10?_dc=1369361676263
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 12:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/13".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/13?_dc=1369361676438
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 12:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/3".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/3?_dc=1369361676541
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 12:14:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/8".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/8?_dc=1369361676633
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 14:41:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

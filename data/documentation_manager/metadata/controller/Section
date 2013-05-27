@@ -1,0 +1,207 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Section"
+        ],
+        "stores": [
+            "Section"
+        ],
+        "views": [
+            "SectionForm",
+            "SectionTree",
+            "NewSection"
+        ],
+        "designer|userClassName": "Section"
+    },
+    "designerId": "99e58b22-42bb-451f-aeff-1104ad6118e7",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "init",
+                "designer|params": [
+                    "application"
+                ],
+                "implHandler": [
+                    "this.control({",
+                    "    '[action=new-section]':{",
+                    "        click: this.newSection",
+                    "    },",
+                    "    '[action=save-section]':{",
+                    "        click: this.saveSection",
+                    "    },",
+                    "    'section_tree':{",
+                    "        itemclick: this.onTreeItemClick",
+                    "    }",
+                    "});"
+                ]
+            },
+            "designerId": "7b5ca2d5-68b4-4173-b08c-b5f3d892b32d"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "loadSection",
+                "designer|params": [
+                    "id"
+                ],
+                "implHandler": [
+                    "var store = this.getStore(\"Section\");",
+                    "var form = Ext.getCmp('section_form');",
+                    "",
+                    "form.setLoading(true);",
+                    "",
+                    "//load records from server, we cannot rely on the store having the current record loaded.",
+                    "//so we will have to ask the moel to load itseld.",
+                    "MyApp.model.Section.load(id, {",
+                    "    scope: this,",
+                    "",
+                    "    failure: function(record, operation) {",
+                    "        alert('TODO error management');",
+                    "    },",
+                    "",
+                    "    success: function(record, operation) {",
+                    "        form.loadRecord(record);",
+                    "    },",
+                    "",
+                    "    callback: function(record) {",
+                    "        form.setLoading(false);",
+                    "    }",
+                    "",
+                    "});",
+                    "",
+                    "//Ext.getCmp('main_container').getLayout().setActiveItem(1);",
+                    ""
+                ]
+            },
+            "designerId": "8438acc6-e856-4fad-8f1d-653da835d770"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "saveSection",
+                "implHandler": [
+                    "var form = Ext.getCmp('section_form');",
+                    "var record = form.getForm().getRecord();",
+                    "",
+                    "if (form.getForm().isValid()) {",
+                    "    form.getForm().updateRecord(record);",
+                    "",
+                    "    form.setLoading(true);",
+                    "    record.save({",
+                    "",
+                    "        failure: function(record, operation) {",
+                    "            alert('TODO error management');",
+                    "        },",
+                    "",
+                    "        success: function(record, operation) {",
+                    "            form.getForm().updateRecord(record);",
+                    "        },",
+                    "",
+                    "        callback: function(record) {",
+                    "            form.setLoading(false);",
+                    "        }",
+                    "    });",
+                    "",
+                    "}"
+                ]
+            },
+            "designerId": "a734d815-a1e6-4c5d-bec6-87fc79c1ccdb"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTreeItemClick",
+                "designer|params": [
+                    "view",
+                    "record",
+                    "item",
+                    "index",
+                    "e",
+                    "eOpts"
+                ],
+                "implHandler": [
+                    "var type = record.data.object_type",
+                    "var id = record.data.object_id",
+                    "",
+                    "switch(type){",
+                    "    case \"Section\":",
+                    "    this.loadSection(id);",
+                    "    break;",
+                    "    case \"Client\":",
+                    "",
+                    "    break;",
+                    "}"
+                ]
+            },
+            "designerId": "59b33ada-215a-4dcd-8702-b48b7eae8c95"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "newSection",
+                "designer|params": [
+                    "buttion",
+                    "event"
+                ],
+                "implHandler": [
+                    "var window = buttion.up('form').up('window');",
+                    "var form = buttion.up('form').getForm();",
+                    "",
+                    "if (form.isValid()) {",
+                    "    var client = Ext.create('MyApp.model.Section', form.getFieldValues());",
+                    "    client.save({",
+                    "        success: function(record, operation){",
+                    "            if (operation.wasSuccessful()) {",
+                    "                var tree = Ext.getCmp('section_tree');",
+                    "                var node = tree.getRootNode( );",
+                    "                node.createNode(node);",
+                    "",
+                    "                window.hide();",
+                    "            } else {",
+                    "",
+                    "            }",
+                    "        },",
+                    "",
+                    "        failure: function(record, operation){",
+                    "",
+                    "        }",
+                    "    });",
+                    "}"
+                ]
+            },
+            "designerId": "f0757871-b691-4fbb-bab1-0481152e1191"
+        }
+    ]
+}

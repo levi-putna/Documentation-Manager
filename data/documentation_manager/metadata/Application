@@ -1,0 +1,131 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Tree",
+            "Status",
+            "Document"
+        ],
+        "stores": [
+            "DocumentTree",
+            "Status",
+            "Document"
+        ],
+        "views": [
+            "MyViewport",
+            "NewMenu",
+            "ClearTriggerField",
+            "TreeContextMenu"
+        ],
+        "autoCreateViewport": true,
+        "controllers": [
+            "Section"
+        ],
+        "name": "MyApp"
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "document.getElementById('loading_container').style.display = 'none';",
+                    "Ext.QuickTips.init();",
+                    "",
+                    "// Apply a set of config properties to the singleton",
+                    "Ext.apply(Ext.QuickTips.getQuickTip(), {",
+                    "    maxWidth: 200,",
+                    "    minWidth: 100,",
+                    "    showDelay: 50,",
+                    "    trackMouse: false",
+                    "});",
+                    "",
+                    "// Add the additional 'advanced' VTypes",
+                    "Ext.apply(Ext.form.field.VTypes, {",
+                    "    daterange: function(val, field) {",
+                    "        var date = field.parseDate(val);",
+                    "",
+                    "        if (!date) {",
+                    "            return false;",
+                    "        }",
+                    "        if (field.startDateField && (!this.dateRangeMax || (date.getTime() != this.dateRangeMax.getTime()))) {",
+                    "            var start = field.up('form').down('#' + field.startDateField);",
+                    "            start.setMaxValue(date);",
+                    "            start.validate();",
+                    "            this.dateRangeMax = date;",
+                    "        }",
+                    "        else if (field.endDateField && (!this.dateRangeMin || (date.getTime() != this.dateRangeMin.getTime()))) {",
+                    "            var end = field.up('form').down('#' + field.endDateField);",
+                    "            end.setMinValue(date);",
+                    "            end.validate();",
+                    "            this.dateRangeMin = date;",
+                    "        }",
+                    "        /*",
+                    "        * Always return true since we're only using this vtype to set the",
+                    "        * min/max allowed values (these are tested for after the vtype test)",
+                    "        */",
+                    "        return true;",
+                    "    },",
+                    "",
+                    "    daterangeText: 'Start date must be less than end date',",
+                    "",
+                    "    password: function(val, field) {",
+                    "        if (field.initialPassField) {",
+                    "            var pwd = field.up('form').down('#' + field.initialPassField);",
+                    "            return (val == pwd.getValue());",
+                    "        }",
+                    "        return true;",
+                    "    },",
+                    "",
+                    "    passwordText: 'Passwords do not match'",
+                    "});"
+                ]
+            },
+            "designerId": "a3deda61-ecd0-46c3-a30f-3c925896fd55"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "setSelection",
+                "designer|params": [
+                    "record"
+                ],
+                "implHandler": [
+                    "this.selection = record;"
+                ]
+            },
+            "designerId": "3713a30c-d702-43b4-a544-a83884c4fda1"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getSelection",
+                "implHandler": [
+                    "return this.section;"
+                ]
+            },
+            "designerId": "1021abd8-faba-4dce-ba80-be82f665ccd3"
+        }
+    ]
+}

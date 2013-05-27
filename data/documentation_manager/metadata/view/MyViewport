@@ -1,0 +1,65 @@
+{
+    "type": "Ext.container.Viewport",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyViewport",
+        "designer|initialView": true,
+        "layout": "border"
+    },
+    "designerId": "a312fc31-8fca-4768-95a5-8d075b8aeac4",
+    "cn": [
+        {
+            "type": "linkedinstance",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "id": "section_tree",
+                "minWidth": 250,
+                "designer|displayName": "Section Tree",
+                "layout|region": "west",
+                "layout|split": true
+            },
+            "designerId": "d593b0aa-6e02-478e-abe9-2839a392da0c",
+            "masterInstanceId": "ae130909-fa3c-4160-9a1b-8e1352f7aa59"
+        },
+        {
+            "type": "Ext.container.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|region": "center",
+                "id": "main_container",
+                "itemId": "main_container",
+                "layout": "card"
+            },
+            "designerId": "dde9fdf3-b181-46b5-8729-fccf83faad53",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "section_form",
+                        "itemId": "section_form",
+                        "designer|displayName": "Section Form"
+                    },
+                    "designerId": "b2e50054-6015-46fd-9870-010850c0a2af",
+                    "masterInstanceId": "f1f79319-d268-4957-a801-a21cf8babff5"
+                }
+            ]
+        }
+    ]
+}

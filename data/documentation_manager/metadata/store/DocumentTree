@@ -1,0 +1,36 @@
+{
+    "type": "Ext.data.TreeStore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "sortRoot": "index",
+        "autoLoad": false,
+        "autoSync": true,
+        "model": "Tree",
+        "remoteFilter": true,
+        "remoteSort": true,
+        "sortOnLoad": null,
+        "storeId": "DocumentTreeStore",
+        "designer|userClassName": "DocumentTree",
+        "defaultRootId": "document",
+        "folderSort": null
+    },
+    "designerId": "6563361d-4496-4fbc-8c01-f3cc001aff6c",
+    "cn": [
+        {
+            "type": "Ext.util.Sorter",
+            "reference": {
+                "name": "sorters",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "property": "index"
+            },
+            "designerId": "2c393dc2-0fe1-47d8-80ae-f5ed2ffb12d1"
+        }
+    ]
+}

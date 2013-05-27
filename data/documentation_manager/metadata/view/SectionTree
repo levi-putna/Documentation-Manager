@@ -1,0 +1,212 @@
+{
+    "type": "Ext.tree.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemId": null,
+        "maxWidth": 400,
+        "minWidth": 150,
+        "width": 250,
+        "designer|userClassName": "SectionTree",
+        "designer|userAlias": "section_tree",
+        "bodyBorder": false,
+        "collapsible": true,
+        "header": false,
+        "title": null,
+        "titleCollapse": false,
+        "hideHeaders": true,
+        "store": "DocumentTree",
+        "animate": false,
+        "folderSort": true,
+        "lines": false,
+        "rootVisible": false,
+        "singleExpand": null,
+        "useArrows": true
+    },
+    "designerId": "ae130909-fa3c-4160-9a1b-8e1352f7aa59",
+    "cn": [
+        {
+            "type": "Ext.toolbar.Toolbar",
+            "reference": {
+                "name": "dockedItems",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dock": "top"
+            },
+            "designerId": "9409c595-ccc2-445e-b81f-6c052e3bb794",
+            "cn": [
+                {
+                    "type": "linkedinstance",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null
+                    },
+                    "designerId": "034e68b0-7da5-4ba0-9cb0-3c0451374746",
+                    "masterInstanceId": "5c0c3df2-35e3-490f-b7df-72d78cfa9323"
+                },
+                {
+                    "type": "Ext.toolbar.Fill",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null
+                    },
+                    "designerId": "1e84effa-54d4-4994-b06f-af5d8bec1b01"
+                },
+                {
+                    "type": "Ext.button.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "width": null,
+                        "text": "New"
+                    },
+                    "designerId": "c797fb82-c89c-42a0-971a-a507a805309b",
+                    "cn": [
+                        {
+                            "type": "linkedinstance",
+                            "reference": {
+                                "name": "menu",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "designerId": "e4b26634-a507-4452-a584-5f6d5e3043e8",
+                            "masterInstanceId": "488f4b43-b759-42ac-a52f-53d46f25a4bf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.tree.View",
+            "reference": {
+                "name": "viewConfig",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "autoScroll": true,
+                "stripeRows": true
+            },
+            "designerId": "8d5f9d36-6b43-4d7b-b7bb-d312e13020c2",
+            "cn": [
+                {
+                    "type": "Ext.tree.plugin.TreeViewDragDrop",
+                    "reference": {
+                        "name": "plugins",
+                        "type": "array"
+                    },
+                    "codeClass": "Ext.tree.plugin.TreeViewDragDrop",
+                    "userConfig": {
+                        "allowParentInserts": true,
+                        "nodeHighlightOnDrop": true,
+                        "nodeHighlightOnRepair": true
+                    },
+                    "designerId": "ac411d9a-5c22-4a60-9545-6f3ad4266f34",
+                    "cn": [
+                        {
+                            "type": "basiceventbinding",
+                            "reference": {
+                                "name": "listeners",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "fn": "onTreeViewDragDropBeforeDrop",
+                                "implHandler": [
+                                    "var dragNodeName = data.records[0].data.text;",
+                                    "var dragNodeType = data.records[0].data.object_type;",
+                                    "var dropNodeName = overModel.data.text;",
+                                    "",
+                                    "console.log(Ext.application.getSelection());",
+                                    "",
+                                    "//wait until confirmation complete",
+                                    "dropHandlers.wait = true;",
+                                    "",
+                                    "Ext.Msg.show({",
+                                    "    title: 'Confirm Move',",
+                                    "    width : 400,",
+                                    "    msg: 'Are you sure you want to move <b>' + dragNodeType + ' ' + dragNodeName + '</b> to  <b>' + dropNodeName + '</b>?',",
+                                    "    buttons: Ext.Msg.YESNO,",
+                                    "    closable: false,",
+                                    "    fn: function (btn) {",
+                                    "        switch (btn) {",
+                                    "            case \"yes\":",
+                                    "            dropHandlers.processDrop();",
+                                    "",
+                                    "            break;",
+                                    "            case \"no\":",
+                                    "",
+                                    "            break;",
+                                    "        } \t",
+                                    "    }",
+                                    "});",
+                                    ""
+                                ],
+                                "name": "beforedrop",
+                                "scope": "me"
+                            },
+                            "designerId": "993705aa-2523-4959-a203-57626007fdae"
+                        }
+                    ]
+                },
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onViewNodeDragOver",
+                        "implHandler": [
+                            "return true;"
+                        ],
+                        "name": "nodedragover",
+                        "scope": "me"
+                    },
+                    "designerId": "ba18829a-58c9-46dc-a8a0-f0e6315c0919"
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTreepanelItemContextMenu",
+                "implHandler": [
+                    "e.stopEvent();",
+                    "this.contextRecord = record;",
+                    "console.log(MyApp.Utilities);",
+                    "",
+                    "var menu = Ext.create('MyApp.view.TreeContextMenu', {});",
+                    "",
+                    "menu.showAt(e.getXY());"
+                ],
+                "name": "itemcontextmenu",
+                "scope": "me"
+            },
+            "designerId": "fbcacd55-27b0-4647-a49c-9865edef6f3b"
+        }
+    ]
+}

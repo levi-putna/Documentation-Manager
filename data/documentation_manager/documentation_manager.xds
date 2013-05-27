@@ -1,0 +1,195 @@
+{
+    "name": "documentation_manager",
+    "settings": {
+        "exportPath": "/Users/levip/workspace/documentation manger/webapp",
+        "urlPrefix": "http://documentation-manager.com:8888/",
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "buildShouldOverwriteIndex": true
+    },
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "ext42",
+    "topInstanceFileMap": {
+        "a312fc31-8fca-4768-95a5-8d075b8aeac4": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "522a3d29-4673-4897-84e0-41d6326cf170": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "6563361d-4496-4fbc-8c01-f3cc001aff6c": {
+            "paths": [
+                "metadata/store/DocumentTree",
+                "app/store/override/DocumentTree.js",
+                "app/store/DocumentTree.js"
+            ],
+            "className": "DocumentTree"
+        },
+        "514b82ff-faf2-4633-8127-286ec1e41167": {
+            "paths": [
+                "metadata/model/Tree",
+                "app/model/override/Tree.js",
+                "app/model/Tree.js"
+            ],
+            "className": "Tree"
+        },
+        "6b6a6e5d-9620-478c-b968-b0d9dc4d69ed": {
+            "paths": [
+                "metadata/model/Section",
+                "app/model/override/Section.js",
+                "app/model/Section.js"
+            ],
+            "className": "Section"
+        },
+        "17293794-b191-4c28-bcb1-cb40c8b76e88": {
+            "paths": [
+                "metadata/store/Status",
+                "app/store/override/Status.js",
+                "app/store/Status.js"
+            ],
+            "className": "Status"
+        },
+        "8152f3d5-efa5-4c49-abc9-67d47e31e0bd": {
+            "paths": [
+                "metadata/model/Status",
+                "app/model/override/Status.js",
+                "app/model/Status.js"
+            ],
+            "className": "Status"
+        },
+        "6bd72b1e-bb52-45f7-abf9-83d9b07fc49b": {
+            "paths": [
+                "metadata/store/Section",
+                "app/store/override/Section.js",
+                "app/store/Section.js"
+            ],
+            "className": "Section"
+        },
+        "f1f79319-d268-4957-a801-a21cf8babff5": {
+            "paths": [
+                "metadata/view/SectionForm",
+                "app/view/override/SectionForm.js",
+                "app/view/SectionForm.js"
+            ],
+            "className": "SectionForm"
+        },
+        "99e58b22-42bb-451f-aeff-1104ad6118e7": {
+            "paths": [
+                "metadata/controller/Section",
+                "app/controller/override/Section.js",
+                "app/controller/Section.js"
+            ],
+            "className": "Section"
+        },
+        "ae130909-fa3c-4160-9a1b-8e1352f7aa59": {
+            "paths": [
+                "metadata/view/SectionTree",
+                "app/view/override/SectionTree.js",
+                "app/view/SectionTree.js"
+            ],
+            "className": "SectionTree"
+        },
+        "45e8cca8-239b-48e5-915a-77dca389efa2": {
+            "paths": [
+                "metadata/view/NewSection",
+                "app/view/override/NewSection.js",
+                "app/view/NewSection.js"
+            ],
+            "className": "NewSection"
+        },
+        "488f4b43-b759-42ac-a52f-53d46f25a4bf": {
+            "paths": [
+                "metadata/view/NewMenu",
+                "app/view/override/NewMenu.js",
+                "app/view/NewMenu.js"
+            ],
+            "className": "NewMenu"
+        },
+        "5c0c3df2-35e3-490f-b7df-72d78cfa9323": {
+            "paths": [
+                "metadata/view/ClearTriggerField",
+                "app/view/override/ClearTriggerField.js",
+                "app/view/ClearTriggerField.js"
+            ],
+            "className": "ClearTriggerField"
+        },
+        "a9436038-0411-4781-b82d-86210674b388": {
+            "paths": [
+                "metadata/store/Document",
+                "app/store/override/Document.js",
+                "app/store/Document.js"
+            ],
+            "className": "Document"
+        },
+        "3af5ef3d-6532-4370-848d-5573e9d8d13c": {
+            "paths": [
+                "metadata/model/Document",
+                "app/model/override/Document.js",
+                "app/model/Document.js"
+            ],
+            "className": "Document"
+        },
+        "b6870b35-a889-40d9-a32d-9e08a2266044": {
+            "paths": [
+                "metadata/view/TreeContextMenu",
+                "app/view/override/TreeContextMenu.js",
+                "app/view/TreeContextMenu.js"
+            ],
+            "className": "TreeContextMenu"
+        },
+        "26019352-d6ca-482b-99df-6ecf0787ad24": {
+            "paths": [
+                "metadata/model/Selection",
+                "app/model/override/Selection.js",
+                "app/model/Selection.js"
+            ],
+            "className": "Selection"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "a312fc31-8fca-4768-95a5-8d075b8aeac4",
+            "f1f79319-d268-4957-a801-a21cf8babff5",
+            "ae130909-fa3c-4160-9a1b-8e1352f7aa59",
+            "45e8cca8-239b-48e5-915a-77dca389efa2",
+            "5c0c3df2-35e3-490f-b7df-72d78cfa9323",
+            "b6870b35-a889-40d9-a32d-9e08a2266044",
+            "488f4b43-b759-42ac-a52f-53d46f25a4bf"
+        ],
+        "store": [
+            "6563361d-4496-4fbc-8c01-f3cc001aff6c",
+            "17293794-b191-4c28-bcb1-cb40c8b76e88",
+            "6bd72b1e-bb52-45f7-abf9-83d9b07fc49b",
+            "a9436038-0411-4781-b82d-86210674b388"
+        ],
+        "controller": [
+            "99e58b22-42bb-451f-aeff-1104ad6118e7"
+        ],
+        "model": [
+            "514b82ff-faf2-4633-8127-286ec1e41167",
+            "6b6a6e5d-9620-478c-b968-b0d9dc4d69ed",
+            "8152f3d5-efa5-4c49-abc9-67d47e31e0bd",
+            "3af5ef3d-6532-4370-848d-5573e9d8d13c",
+            "26019352-d6ca-482b-99df-6ecf0787ad24"
+        ],
+        "resource": [
+            "522a3d29-4673-4897-84e0-41d6326cf170"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

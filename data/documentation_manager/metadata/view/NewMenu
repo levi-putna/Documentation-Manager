@@ -1,0 +1,62 @@
+{
+    "type": "Ext.menu.Menu",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "width": 145,
+        "designer|userClassName": "NewMenu",
+        "designer|userAlias": "new_menu"
+    },
+    "designerId": "488f4b43-b759-42ac-a52f-53d46f25a4bf",
+    "cn": [
+        {
+            "type": "Ext.menu.Item",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "New Document"
+            },
+            "designerId": "dc9ce977-51a0-49ef-9915-ca0bc5ec532c"
+        },
+        {
+            "type": "Ext.menu.Item",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "text": "New Section"
+            },
+            "designerId": "cae47f2a-378e-4a57-8604-e22238f12d0e",
+            "cn": [
+                {
+                    "type": "fixedfunction",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "handler",
+                        "designer|params": [
+                            "item",
+                            "e"
+                        ],
+                        "implHandler": [
+                            "var x = Ext.create(\"MyApp.view.NewSection\",{",
+                            "}).show();"
+                        ]
+                    },
+                    "designerId": "ce060c2a-58ee-4bb9-8e80-7bbfc8b1c8b8"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,228 @@
+{
+    "type": "Ext.window.Window",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": 312,
+        "width": 450,
+        "designer|userClassName": "NewSection",
+        "layout": "fit",
+        "title": "New Section",
+        "modal": true
+    },
+    "designerId": "45e8cca8-239b-48e5-915a-77dca389efa2",
+    "cn": [
+        {
+            "type": "Ext.form.Panel",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "container|align": "stretch",
+                "layout": "vbox",
+                "bodyPadding": 10,
+                "title": null,
+                "fieldDefaults": [
+                    "{",
+                    "    labelAlign: 'top',",
+                    "    msgTarget: 'side'",
+                    "}"
+                ]
+            },
+            "designerId": "82a83037-47da-46cc-b640-40b617aaf31f",
+            "cn": [
+                {
+                    "type": "Ext.toolbar.Toolbar",
+                    "reference": {
+                        "name": "dockedItems",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "dock": "top"
+                    },
+                    "designerId": "48d1b665-cb6a-43a7-867d-6bf71aec46d0",
+                    "cn": [
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "action": "new-section",
+                                "layout|flex": null,
+                                "text": "Add"
+                            },
+                            "designerId": "fb92ed1f-4cf2-4386-ade6-43bb92e243d5",
+                            "customConfigs": [
+                                {
+                                    "group": "(Custom Properties)",
+                                    "name": "action",
+                                    "type": "string"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.toolbar.Fill",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null
+                            },
+                            "designerId": "662b553d-e3f4-4bc4-8635-b83ddfd11068"
+                        },
+                        {
+                            "type": "Ext.button.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": null,
+                                "text": "Cancle"
+                            },
+                            "designerId": "2806d55d-268b-4c4f-8214-dae738ff30ff"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.field.Hidden",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": null,
+                        "fieldLabel": "Label",
+                        "name": "status_id",
+                        "value": [
+                            "1",
+                            ""
+                        ]
+                    },
+                    "designerId": "c71f62a7-31c2-4eac-a6d9-54ec51ee03dc"
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 0,
+                        "fieldLabel": "Document",
+                        "name": "document_id",
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "displayField": "title",
+                        "forceSelection": true,
+                        "store": "Document",
+                        "typeAhead": true,
+                        "valueField": "id"
+                    },
+                    "designerId": "71302311-aa44-413d-ab58-c981ec8bc6d0"
+                },
+                {
+                    "type": "Ext.form.field.ComboBox",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 0,
+                        "fieldLabel": "Parent",
+                        "name": "parent_id",
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "displayField": "title",
+                        "forceSelection": true,
+                        "store": "Section",
+                        "typeAhead": true,
+                        "valueField": "id"
+                    },
+                    "designerId": "1b4bdca1-a88d-4d92-9de2-a7a1967159cc"
+                },
+                {
+                    "type": "Ext.form.field.Text",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "designer|displayName": "",
+                        "fieldLabel": "Title",
+                        "name": "title",
+                        "allowBlank": false,
+                        "allowOnlyWhitespace": false,
+                        "maxLength": 100
+                    },
+                    "designerId": "b1857940-b72c-4252-8f85-5d1969bc44f0"
+                },
+                {
+                    "type": "Ext.form.field.TextArea",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|flex": 1,
+                        "fieldLabel": "Description",
+                        "name": "description"
+                    },
+                    "designerId": "35888411-9e7e-476d-a8f6-8d5c275729d8"
+                },
+                {
+                    "type": "basiceventbinding",
+                    "reference": {
+                        "name": "listeners",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "fn": "onFormBeforeRender",
+                        "implHandler": [
+                            "var tree = Ext.getCmp('section_tree');",
+                            "var form = this.down('form').getForm();",
+                            "var record = tree.contextRecord;",
+                            "",
+                            "if(record != null){",
+                            "    //hide the new document option if we are are in a section node",
+                            "    if(record.data.object_type == \"Section\"){",
+                            "        var document_field = form.findField('document_id');",
+                            "        var parent_field = form.findField('parent_id');",
+                            "",
+                            "        document_field.destroy();",
+                            "        parent_field.setValue(record.data.object_id);",
+                            "    }",
+                            "}else{",
+                            "    var parent_field = form.findField('parent_id');",
+                            "    parent_field.destroy();",
+                            "}",
+                            "",
+                            "tree.contextRecord = null;"
+                        ],
+                        "name": "beforerender",
+                        "scope": "me"
+                    },
+                    "designerId": "e0533728-f437-42fc-8193-9a87aeca1bdc"
+                }
+            ]
+        }
+    ]
+}
