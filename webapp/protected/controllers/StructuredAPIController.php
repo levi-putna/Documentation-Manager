@@ -248,7 +248,6 @@ class StructuredAPIController extends Controller {
             }
         }
 
-        //makesure we are adding as the current user.
         $fields = json_decode(file_get_contents("php://input"), true);
 
         // Try assign values to attributes.
@@ -283,9 +282,63 @@ class StructuredAPIController extends Controller {
         var_dump($_REQUEST);
     }
 
+    /**
+     * @param $records
+     *
+     * @return bool
+     */
+    private function updateBatch($records) {
+        //get a list of models that can be created via in api request
+        $safe_model_requests = $this->config;
+
+        $transaction = Yii::app()->db->beginTransaction();
+
+        try {
+            //array of records to update.
+            foreach ($records as &$record) {
+                $type = strtolower($record['object_type']);
+                $id   = $record['object_id'];
+
+                $model = $safe_model_requests[$type]['class']::model()->findByPk($id);
+
+                if (!$this->updateTreeModel($model, $record)) {
+                    $transaction->rollback();
+                    return false;
+                }
+            }
+
+            $transaction->commit();
+        } catch (Exception $ex) {
+            $transaction->rollback();
+            return false;
+        }
+        return true;
+    }
+
+    private function updateTreeModel($model, $record) {
+        $model->setIndex($record['index']);
+
+        //update parent
+        $parent_pieces = $this->processId($record['parentId']);
+        $model->setParent($parent_pieces['type'], $parent_pieces['id']);
+
+        if (!$model->save()) {
+            return false;
+        }
+
+        return true;
+    }
 
     /**
      * Update a single record
+     *
+     * The structured api will only support updating of fields relating to the
+     * structure of an of the record, to update other record fields the
+     * record api
+     *
+     * @see RecordAPI should be used.
+     *
+     * The supported update fields are index. parent_id
      *
      * @access public
      * @return void
@@ -305,56 +358,48 @@ class StructuredAPIController extends Controller {
         //get a list of models that can be created via in api request
         $safe_model_requests = $this->config;
 
-        //get the model that is being requested to be created
-        $request_model = $_GET['model'];
-
-        echo "--->" . is_array($fields);
-
-        //check if we can create a model of this type
-        if (array_key_exists($request_model, $safe_model_requests)) {
-            //$model = new $safe_model_requests[$request_model]();
-            $model = $safe_model_requests[$request_model]['class']::model()->findByPk($_GET['id']);
-        } else {
-            $this->_sendErrorResponse(501, sprintf('Method view is not implemented for %s', $_GET['model']));
-            exit;
-        }
-
-        if (is_null($model)) {
-            $this->_sendErrorResponse(400, sprintf("Didn't find any model %s with ID %s.", $_GET['model'], $_GET['id']));
-            exit;
-        }
-
-
-        // Try assign values to attributes.
-        foreach ($fields as $var => $value) {
-
-            // Does the model have this attribute?, if not just ignore it
-            if ($model->hasAttribute($var)) {
-                $model->$var = $value;
+        //we need t check if this is a batch request or a single record update
+        //there is not a good method to detect batch requests vs indeiviual records
+        //so this is a little bit of a hack.
+        if (!isset($fields['id'])) {
+            if ($this->updateBatch($fields)) {
+                $this->_sendResponse(200, 'Records have been updated.');
+                exit;
             } else {
-                // No, raise an error
-                //$this->_sendErrorResponse(500, sprintf('Parameter %s is not allowed for model %s', $var, $_GET['model']));
+                $this->_sendErrorResponse(501, 'There was an error updating records.');
+                exit;
             }
-        }
-
-        // Try to save the model
-        if ($model->save()) {
-            $this->_sendResponse(200, $this->_getObjectEncoded($_GET['model'], $model->attributes));
         } else {
-            $msg = sprintf("Couldn't update model %s", $_GET['model']);
-            $msg .= "\n";
-            foreach ($model->errors as $attribute => $attr_errors) {
-                $msg .= "\nAttribute: $attribute";
-                $msg .= "\n";
-                foreach ($attr_errors as $attr_error) {
-                    $msg .= "\n    $attr_error";
+            $request_model = $_GET['model'];
+            $id = $_GET['id']; //the record id to be updating
+            if (array_key_exists($request_model, $safe_model_requests)) {
+
+                $model = $safe_model_requests[$request_model]['class']::model()->findByPk($id);
+
+                if (!$this->updateTreeModel($model, $fields)) {
+                    $this->_sendErrorResponse(501, "Error updating record");
+                    exit;
+                }else{
+                    $this->_sendResponse(200, 'Records have been updated.');
+                    exit;
                 }
+            } else {
+                $this->_sendErrorResponse(501, sprintf('Mode create is not implemented for model %s', $_GET['model']));
+                exit;
             }
 
-            $this->_sendErrorResponse(500, $msg);
+
         }
+
     }
 
+    private function processId($id) {
+        $pieces = explode("/", $id);
+        return array(
+            'type' => $pieces[0],
+            'id'   => $pieces[1],
+        );
+    }
 
     /**
      * Deletes a single record
@@ -568,7 +613,7 @@ class StructuredAPIController extends Controller {
         $rows = array();
         foreach ($models as $model) {
             $isLeafe = ($follow ? $model->isLeaf() : true);
-            $rows[]  = array("text" => $model->getDisplayName(), "icon" => $model->getIcon(), "object_type" => get_class($model), "object_id" => $model->id, "id" => strtolower(get_class($model)) . '/' . $model->id, "loaded" => $isLeafe, "cls" => "", "disabled" => true, "order" => $model->getOrder());
+            $rows[]  = array("text" => $model->getDisplayName(), "icon" => $model->getIcon(), "object_type" => get_class($model), "object_id" => $model->id, "id" => strtolower(get_class($model)) . '/' . $model->id, "loaded" => $isLeafe, "cls" => "", "disabled" => true, "order" => $model->getIndex());
         }
         //"expanded"
 

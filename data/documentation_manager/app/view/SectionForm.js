@@ -17,6 +17,10 @@ Ext.define('MyApp.view.SectionForm', {
     extend: 'Ext.form.Panel',
     alias: 'widget.section_form',
 
+    requires: [
+        'MyApp.view.MarkdownArea'
+    ],
+
     layout: {
         align: 'stretch',
         type: 'vbox'
@@ -92,10 +96,9 @@ Ext.define('MyApp.view.SectionForm', {
                     name: 'description'
                 },
                 {
-                    xtype: 'textareafield',
-                    flex: 1,
+                    xtype: 'markdown_area',
                     fieldLabel: 'Content',
-                    name: 'content'
+                    flex: 1
                 }
             ]
         });

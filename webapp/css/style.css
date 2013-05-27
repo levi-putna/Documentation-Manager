@@ -235,3 +235,21 @@
 	border-top:1px solid #157fcc;
 	border-bottom:3px double #157fcc;
 }
+
+.x-markdown-field textarea{
+
+}
+
+.ace_focus{
+	border:#3892DE solid 1px;
+}
+
+.ace_editor {
+	border-color: #D9D9D9 #D9D9D9 #D9D9D9;
+	border-style: solid;
+	border-width: 1px;
+}
+
+.ace-tm .ace_gutter {
+	
+}

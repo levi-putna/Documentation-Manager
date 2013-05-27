@@ -99,7 +99,6 @@ Ext.define('MyApp.view.SectionTree', {
         var dragNodeType = data.records[0].data.object_type;
         var dropNodeName = overModel.data.text;
 
-        console.log(Ext.application.getSelection());
 
         //wait until confirmation complete
         dropHandlers.wait = true;
@@ -132,7 +131,6 @@ Ext.define('MyApp.view.SectionTree', {
     onTreepanelItemContextMenu: function(dataview, record, item, index, e, eOpts) {
         e.stopEvent();
         this.contextRecord = record;
-        console.log(MyApp);
 
         var menu = Ext.create('MyApp.view.TreeContextMenu', {});
 

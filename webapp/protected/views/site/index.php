@@ -18,6 +18,7 @@
 
 <!-- loading extjs  -->
 <script language="JavaScript">load(40,'Downloading application framework...');</script>
+<script src="<?php echo Yii::app()->request->baseUrl; ?>/js/ace/ace.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/ext-all-debug.js"></script>
 <script src="<?php echo Yii::app()->request->baseUrl; ?>/js/TreeCombo.js"></script>
 

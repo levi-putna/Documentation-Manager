@@ -1,0 +1,35 @@
+{
+    "type": "Ext.form.field.TextArea",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "componentCls": "x-markdown-field",
+        "designer|userClassName": "MarkdownArea",
+        "designer|userAlias": "markdown_area",
+        "fieldLabel": null,
+        "name": "content"
+    },
+    "designerId": "34bf8d40-6cec-4743-8e99-303d54c9bfba",
+    "cn": [
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onTextareafieldRender",
+                "implHandler": [
+                    ""
+                ],
+                "name": "render",
+                "scope": "me"
+            },
+            "designerId": "7c0d24ce-5690-4876-997c-825503663020"
+        }
+    ]
+}

@@ -134,7 +134,7 @@
             },
             "codeClass": null,
             "userConfig": {
-                "batchActions": null,
+                "batchActions": true,
                 "sortParam": null,
                 "url": "/structured_api/"
             },

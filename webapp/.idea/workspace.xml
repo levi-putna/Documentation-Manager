@@ -4,13 +4,15 @@
     <list default="true" id="b0eeaf75-d461-472f-bf36-da653a890f6a" name="Default" comment="" />
     <ignored path="webapp.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Document.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369354107160" ignored="false" />
+    <file path="/Document.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369374735063" ignored="false" />
     <file path="/APIController.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369353383000" ignored="false" />
     <file path="/Section.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369355168696" ignored="false" />
-    <file path="/TreeNode.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369282217896" ignored="false" />
+    <file path="/TreeNode.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369374745971" ignored="false" />
     <file path="/main.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369360075425" ignored="false" />
     <file path="/a.dummy" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369356475141" ignored="false" />
-    <file path="/StructuredAPIController.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369360450133" ignored="false" />
+    <file path="/StructuredAPIController.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369377958426" ignored="false" />
+    <file path="/style.css" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369622284800" ignored="false" />
+    <file path="/index.php" changelist="b0eeaf75-d461-472f-bf36-da653a890f6a" time="1369546374580" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +35,7 @@
       <file leaf-file-name="APIController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/APIController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="12" selection-start="2613" selection-end="2613" vertical-scroll-proportion="9.375">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TreeNode.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/protected/components/TreeNode.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="24" selection-start="228" selection-end="228" vertical-scroll-proportion="-9.375">
+            <state line="99" column="12" selection-start="2613" selection-end="2613" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -51,7 +44,7 @@
       <file leaf-file-name="Document.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/Document.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="61" selection-start="765" selection-end="814" vertical-scroll-proportion="-9.9">
+            <state line="130" column="4" selection-start="3493" selection-end="3638" vertical-scroll-proportion="-34.875">
               <folding />
             </state>
           </provider>
@@ -60,7 +53,7 @@
       <file leaf-file-name="Section.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/models/Section.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="198" column="39" selection-start="6094" selection-end="6094" vertical-scroll-proportion="-7.0">
+            <state line="212" column="5" selection-start="6392" selection-end="6392" vertical-scroll-proportion="-36.75">
               <folding />
             </state>
           </provider>
@@ -69,20 +62,38 @@
       <file leaf-file-name="StructuredAPIController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/controllers/StructuredAPIController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="144" column="36" selection-start="4147" selection-end="4147" vertical-scroll-proportion="-10.625">
+            <state line="383" column="25" selection-start="12146" selection-end="12146" vertical-scroll-proportion="-36.208332">
               <folding>
-                <element signature="n#filters#0;n#StructuredAPIController#0;n#!!top" expanded="false" />
                 <element signature="n#actionIndex#0;n#StructuredAPIController#0;n#!!top" expanded="false" />
                 <element signature="n#authenticate#0;n#StructuredAPIController#0;n#!!top" expanded="false" />
+                <element signature="e#2123#2355#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="253" column="4" selection-start="5835" selection-end="5835" vertical-scroll-proportion="0.84782606">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="0" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-12.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/config/main.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="94" selection-start="2533" selection-end="2533" vertical-scroll-proportion="0.56657225">
+            <state line="60" column="74" selection-start="2633" selection-end="2633" vertical-scroll-proportion="-10.625">
               <folding />
             </state>
           </provider>
@@ -98,21 +109,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/protected/components/TreeNode.php" />
-        <option value="$PROJECT_DIR$/protected/models/Document.php" />
         <option value="$PROJECT_DIR$/protected/controllers/APIController.php" />
+        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/models/Document.php" />
+        <option value="$PROJECT_DIR$/protected/components/TreeNode.php" />
         <option value="$PROJECT_DIR$/protected/models/Section.php" />
         <option value="$PROJECT_DIR$/protected/controllers/StructuredAPIController.php" />
-        <option value="$PROJECT_DIR$/protected/config/main.php" />
+        <option value="$PROJECT_DIR$/protected/views/site/index.php" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1887" />
-    <option name="y" value="146" />
-    <option name="width" value="1920" />
-    <option name="height" value="878" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="874" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -186,6 +198,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="protected" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -241,6 +293,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -345,15 +411,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1887" y="146" width="1920" height="878" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16328709" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1995731" sideWeight="0.9978746" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2195122" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27116212" sideWeight="0.9978746" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -429,6 +496,24 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/StructuredAPIController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="144" column="36" selection-start="4147" selection-end="4147" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#actionIndex#0;n#StructuredAPIController#0;n#!!top" expanded="false" />
+            <element signature="n#authenticate#0;n#StructuredAPIController#0;n#!!top" expanded="false" />
+            <element signature="e#2123#2355#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="94" selection-start="2533" selection-end="2533" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/APIController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="303" column="71" selection-start="10209" selection-end="10209" vertical-scroll-proportion="0.0">
@@ -457,20 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/components/TreeNode.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="24" selection-start="228" selection-end="228" vertical-scroll-proportion="-9.375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Document.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="61" selection-start="765" selection-end="814" vertical-scroll-proportion="-9.9">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1430" column="28" selection-start="50734" selection-end="50742" vertical-scroll-proportion="-0.625">
@@ -478,34 +549,69 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/models/Section.php">
+    <entry file="file://$PROJECT_DIR$/protected/controllers/APIController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="198" column="39" selection-start="6094" selection-end="6094" vertical-scroll-proportion="-7.0">
+        <state line="99" column="12" selection-start="2613" selection-end="2613" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/controllers/APIController.php">
+    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="12" selection-start="2613" selection-end="2613" vertical-scroll-proportion="9.375">
+        <state line="60" column="74" selection-start="2633" selection-end="2633" vertical-scroll-proportion="-10.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/components/TreeNode.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="35" selection-start="239" selection-end="239" vertical-scroll-proportion="-9.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Document.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="130" column="4" selection-start="3493" selection-end="3638" vertical-scroll-proportion="-34.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/models/Section.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="212" column="5" selection-start="6392" selection-end="6392" vertical-scroll-proportion="-36.75">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/controllers/StructuredAPIController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="144" column="36" selection-start="4147" selection-end="4147" vertical-scroll-proportion="-10.625">
+        <state line="383" column="25" selection-start="12146" selection-end="12146" vertical-scroll-proportion="-36.208332">
           <folding>
-            <element signature="n#filters#0;n#StructuredAPIController#0;n#!!top" expanded="false" />
             <element signature="n#actionIndex#0;n#StructuredAPIController#0;n#!!top" expanded="false" />
             <element signature="n#authenticate#0;n#StructuredAPIController#0;n#!!top" expanded="false" />
+            <element signature="e#2123#2355#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/config/main.php">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="94" selection-start="2533" selection-end="2533" vertical-scroll-proportion="0.56657225">
+        <state line="0" column="0" selection-start="0" selection-end="6" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/views/site/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="1107" selection-end="1107" vertical-scroll-proportion="-12.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="253" column="4" selection-start="5835" selection-end="5835" vertical-scroll-proportion="0.84782606">
           <folding />
         </state>
       </provider>

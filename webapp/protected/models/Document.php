@@ -128,7 +128,11 @@ class Document extends CActiveRecord implements TreeNode
         return !$this->hasChildren();
     }
 
-    public function getOrder(){
+    public function getIndex(){
         return $this->index;
+    }
+
+    public function setIndex($index){
+        return $this->index = $index;
     }
 }

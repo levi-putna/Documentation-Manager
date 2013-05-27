@@ -13,7 +13,9 @@ interface TreeNode {
 
     public function getChildren();
 
-    public function getOrder();
+    public function setIndex($index);
+
+    public function getIndex();
 
     public function setParent($parent_type, $parent_id);
 

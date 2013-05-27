@@ -150,13 +150,13 @@
             ],
             "className": "TreeContextMenu"
         },
-        "26019352-d6ca-482b-99df-6ecf0787ad24": {
+        "34bf8d40-6cec-4743-8e99-303d54c9bfba": {
             "paths": [
-                "metadata/model/Selection",
-                "app/model/override/Selection.js",
-                "app/model/Selection.js"
+                "metadata/view/MarkdownArea",
+                "app/view/override/MarkdownArea.js",
+                "app/view/MarkdownArea.js"
             ],
-            "className": "Selection"
+            "className": "MarkdownArea"
         }
     },
     "viewOrderMap": {
@@ -167,7 +167,8 @@
             "45e8cca8-239b-48e5-915a-77dca389efa2",
             "5c0c3df2-35e3-490f-b7df-72d78cfa9323",
             "b6870b35-a889-40d9-a32d-9e08a2266044",
-            "488f4b43-b759-42ac-a52f-53d46f25a4bf"
+            "488f4b43-b759-42ac-a52f-53d46f25a4bf",
+            "34bf8d40-6cec-4743-8e99-303d54c9bfba"
         ],
         "store": [
             "6563361d-4496-4fbc-8c01-f3cc001aff6c",
@@ -182,8 +183,7 @@
             "514b82ff-faf2-4633-8127-286ec1e41167",
             "6b6a6e5d-9620-478c-b968-b0d9dc4d69ed",
             "8152f3d5-efa5-4c49-abc9-67d47e31e0bd",
-            "3af5ef3d-6532-4370-848d-5573e9d8d13c",
-            "26019352-d6ca-482b-99df-6ecf0787ad24"
+            "3af5ef3d-6532-4370-848d-5573e9d8d13c"
         ],
         "resource": [
             "522a3d29-4673-4897-84e0-41d6326cf170"

@@ -56,9 +56,9 @@ return array(
 
                 array('StructuredAPI/list', 'pattern' => 'structured_api/<model:\w+>', 'verb' => 'GET'),
                 array('StructuredAPI/view', 'pattern' => 'structured_api/<model:\w+>/<id:\d+>', 'verb' => 'GET'),
-                array('StructuredAPI/update', 'pattern' => 'structuredApi/<model:\w+>/<id:\d+>', 'verb' => 'PUT'),
-                array('StructuredAPI/delete', 'pattern' => 'structuredApi/<model:\w+>/<id:\d+>', 'verb' => 'DELETE'),
-                array('StructuredAPI/create', 'pattern' => 'structuredApi/<model:\w+>', 'verb' => 'POST'),
+                array('StructuredAPI/update', 'pattern' => 'structured_api/<model:\w+>/<id:\d+>', 'verb' => 'PUT'),
+                array('StructuredAPI/delete', 'pattern' => 'structured_api/<model:\w+>/<id:\d+>', 'verb' => 'DELETE'),
+                array('StructuredAPI/create', 'pattern' => 'structured_api/<model:\w+>', 'verb' => 'POST'),
 
                 //array('api/capabilities', 'pattern' => 'api/capabilities/<model:\w+>', 'verb' => 'GET'),
 

@@ -53,6 +53,7 @@ Ext.define('MyApp.model.Tree', {
 
     proxy: {
         type: 'rest',
+        batchActions: true,
         url: '/structured_api/',
         reader: {
             type: 'json'

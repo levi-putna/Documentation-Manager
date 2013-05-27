@@ -204,8 +204,12 @@ class Section extends CActiveRecord implements TreeNode
         return true;
     }
 
-    public function getOrder(){
+    public function getIndex(){
         return $this->index;
+    }
+
+    public function setIndex($index){
+        return $this->index = $index;
     }
 
     public function isLeaf(){

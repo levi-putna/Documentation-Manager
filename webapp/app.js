@@ -33,7 +33,8 @@ Ext.application({
         'MyViewport',
         'NewMenu',
         'ClearTriggerField',
-        'TreeContextMenu'
+        'TreeContextMenu',
+        'MarkdownArea'
     ],
     autoCreateViewport: true,
     controllers: [
@@ -92,14 +93,6 @@ Ext.application({
 
             passwordText: 'Passwords do not match'
         });
-    },
-
-    setSelection: function(record) {
-        this.selection = record;
-    },
-
-    getSelection: function() {
-        return this.section;
     }
 
 });

@@ -523,3 +523,476 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/05/24 15:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/8".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/8?_dc=1369373134326
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/10".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/10?_dc=1369373134472
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/13".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/13?_dc=1369373134589
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:25:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/3".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/3?_dc=1369373134777
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:25:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/8".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/8?_dc=1369373134326
+---
+2013/05/24 15:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/10".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/10?_dc=1369373247974
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/13".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/13?_dc=1369373248210
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/3".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/3?_dc=1369373248397
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:27:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "structured_api/section/8".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('structured_api/...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/structured_api/section/8?_dc=1369373248575
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:28:04 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`documentation_manager`.`section`, CONSTRAINT `section_parent_id` FOREIGN KEY (`parent_id`) REFERENCES `section` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: UPDATE `section` SET `id`=:yp0, `parent_id`=:yp1, `document_id`=:yp2, `title`=:yp3, `description`=:yp4, `content`=:yp5, `edited`=:yp6, `edited_by`=:yp7, `status_id`=:yp8, `index`=:yp9 WHERE `section`.`id`='8'.
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (341)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 15:28:04 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`documentation_manager`.`section`, CONSTRAINT `section_parent_id` FOREIGN KEY (`parent_id`) REFERENCES `section` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: UPDATE `section` SET `id`=:yp0, `parent_id`=:yp1, `document_id`=:yp2, `title`=:yp3, `description`=:yp4, `content`=:yp5, `edited`=:yp6, `edited_by`=:yp7, `status_id`=:yp8, `index`=:yp9 WHERE `section`.`id`='8'' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(1695): CDbCommand->execute()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(1074): CActiveRecord->updateByPk('8', Array)
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(799): CActiveRecord->update(NULL)
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(341): CActiveRecord->save()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('StructuredAPI/u...')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/structured_api/section/8?_dc=1369373284767
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:28:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`documentation_manager`.`section`, CONSTRAINT `section_parent_id` FOREIGN KEY (`parent_id`) REFERENCES `section` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: UPDATE `section` SET `id`=:yp0, `parent_id`=:yp1, `document_id`=:yp2, `title`=:yp3, `description`=:yp4, `content`=:yp5, `edited`=:yp6, `edited_by`=:yp7, `status_id`=:yp8, `index`=:yp9 WHERE `section`.`id`='10'.
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (341)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 15:28:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`documentation_manager`.`section`, CONSTRAINT `section_parent_id` FOREIGN KEY (`parent_id`) REFERENCES `section` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: UPDATE `section` SET `id`=:yp0, `parent_id`=:yp1, `document_id`=:yp2, `title`=:yp3, `description`=:yp4, `content`=:yp5, `edited`=:yp6, `edited_by`=:yp7, `status_id`=:yp8, `index`=:yp9 WHERE `section`.`id`='10'' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(1695): CDbCommand->execute()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(1074): CActiveRecord->updateByPk('10', Array)
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(799): CActiveRecord->update(NULL)
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(341): CActiveRecord->save()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('StructuredAPI/u...')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/structured_api/section/10?_dc=1369373284964
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:28:05 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`documentation_manager`.`section`, CONSTRAINT `section_parent_id` FOREIGN KEY (`parent_id`) REFERENCES `section` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: UPDATE `section` SET `id`=:yp0, `parent_id`=:yp1, `document_id`=:yp2, `title`=:yp3, `description`=:yp4, `content`=:yp5, `edited`=:yp6, `edited_by`=:yp7, `status_id`=:yp8, `index`=:yp9 WHERE `section`.`id`='13'.
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (341)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 15:28:05 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1451 Cannot delete or update a parent row: a foreign key constraint fails (`documentation_manager`.`section`, CONSTRAINT `section_parent_id` FOREIGN KEY (`parent_id`) REFERENCES `section` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: UPDATE `section` SET `id`=:yp0, `parent_id`=:yp1, `document_id`=:yp2, `title`=:yp3, `description`=:yp4, `content`=:yp5, `edited`=:yp6, `edited_by`=:yp7, `status_id`=:yp8, `index`=:yp9 WHERE `section`.`id`='13'' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/CDbCommand.php:358
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(1695): CDbCommand->execute()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(1074): CActiveRecord->updateByPk('13', Array)
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(799): CActiveRecord->update(NULL)
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(341): CActiveRecord->save()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('StructuredAPI/u...')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/structured_api/section/13?_dc=1369373285106
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:28:05 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:311) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:417)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/3?_dc=1369373285247
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (417)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (342)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 15:29:34 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:311) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:417)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/10?_dc=1369373374040
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (417)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (342)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 15:30:39 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:312) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:419)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#7 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/13?_dc=1369373439494
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (419)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (344)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 15:49:03 [error] [exception.CException] exception 'CException' with message 'Property "StructuredAPIController.dbConnection" is not defined.' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CComponent.php:130
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(290): CComponent->__get('dbConnection')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(347): StructuredAPIController->updateBarch(Array, 'section')
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('StructuredAPI/u...')
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#9 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/structured_api/section/13?_dc=1369374543423
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:54:00 [error] [exception.CException] exception 'CException' with message 'Section and its behaviors do not have a method or closure named "index".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(227): CComponent->__call('index', Array)
+#1 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(297): CActiveRecord->__call('index', Array)
+#2 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(297): Section->index(0)
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(347): StructuredAPIController->updateBarch(Array, 'section')
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('update')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('StructuredAPI/u...')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/structured_api/section/13?_dc=1369374840430
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:55:04 [error] [exception.CException] exception 'CException' with message 'Document and its behaviors do not have a method or closure named "getOrder".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CComponent.php:266
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/db/ar/CActiveRecord.php(227): CComponent->__call('getOrder', Array)
+#1 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(573): CActiveRecord->__call('getOrder', Array)
+#2 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(573): Document->getOrder()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(148): StructuredAPIController->getTreeEncode(Array)
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionList()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams(Array)
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): CController->runAction(Object(CInlineAction))
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): CController->run('list')
+#9 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('StructuredAPI/l...')
+#10 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#11 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/structured_api/document?_dc=1369374903369&sort=%5B%7B%22property%22%3A%22index%22%2C%22direction%22%3A%22ASC%22%7D%5D&node=document
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/24 15:59:20 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:290) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:418)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(349): StructuredAPIController->_sendErrorResponse()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/13?_dc=1369375160294
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (418)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (610)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (349)
+2013/05/24 16:00:28 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:295) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:418)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(349): StructuredAPIController->_sendErrorResponse()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/10?_dc=1369375228411
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (418)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (610)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (349)
+2013/05/24 16:01:34 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:295) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:418)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(349): StructuredAPIController->_sendErrorResponse()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/10?_dc=1369375294289
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (418)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (610)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (349)
+2013/05/24 16:03:36 [error] [php] Undefined offset: 13 (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:294)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/13?_dc=1369375416627
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (294)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (342)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 16:05:03 [error] [php] Undefined index: Section (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:294)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/10?_dc=1369375503437
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (294)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (342)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 16:06:47 [error] [php] Undefined offset: 10 (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:297)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/10?_dc=1369375607532
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (297)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (345)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 16:08:26 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:299) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:418)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(349): StructuredAPIController->_sendErrorResponse()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/0?_dc=1369375706583
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (418)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (610)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (349)
+2013/05/24 16:09:30 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:299) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:419)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(350): StructuredAPIController->_sendErrorResponse()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/0?_dc=1369375769845
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (419)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (611)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (350)
+2013/05/24 16:10:12 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:300) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:418)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(349): StructuredAPIController->_sendErrorResponse()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/8?_dc=1369375811950
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (418)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (610)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (349)
+2013/05/24 16:10:30 [error] [php] Cannot modify header information - headers already sent by (output started at /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:300) (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:418)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php(349): StructuredAPIController->_sendErrorResponse()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/actions/CInlineAction.php(49): StructuredAPIController->actionUpdate()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#6 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#7 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#8 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/0?_dc=1369375830822
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (418)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (610)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (349)
+2013/05/24 16:14:03 [error] [php] Illegal string offset 'object_type' (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:294)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/1?_dc=1369376043670
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (294)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (346)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 16:26:03 [error] [php] Illegal string offset 'object_type' (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:299)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/1?_dc=1369376763067
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (299)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (354)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 16:34:41 [error] [php] Illegal string offset 'object_type' (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:299)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/1?_dc=1369377281410
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (299)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (354)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 16:35:00 [error] [php] Illegal string offset 'object_type' (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:299)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(308): CInlineAction->runWithParams()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#5 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#6 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/1?_dc=1369377300278
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (299)
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (354)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 16:35:48 [error] [php] Undefined variable: type (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:369)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/1?_dc=1369377348130
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (369)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/24 16:44:23 [error] [php] Undefined variable: id_pieces (/Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php:377)
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(286): StructuredAPIController->runAction()
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CController.php(265): StructuredAPIController->runActionWithFilters()
+#2 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(282): StructuredAPIController->run()
+#3 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController()
+#4 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#5 /Users/levip/workspace/documentation manger/webapp/index.php(13): CWebApplication->run()
+REQUEST_URI=/structured_api/section/1?_dc=1369377863470
+in /Users/levip/workspace/documentation manger/webapp/protected/controllers/StructuredAPIController.php (377)
+in /Users/levip/workspace/documentation manger/webapp/index.php (13)
+2013/05/26 14:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/theme-monokai.js".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/theme-monoka...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/theme-monokai.js
+HTTP_REFERER=http://documentation-manager.com:8888/
+---
+2013/05/26 14:55:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/mode-javascript.js".' in /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php:286
+Stack trace:
+#0 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('js/mode-javascr...')
+#1 /Users/levip/workspace/documentation manger/webapp/protected/packages/yiisoft/yii/framework/base/CApplication.php(169): CWebApplication->processRequest()
+#2 /Users/levip/workspace/documentation manger/webapp/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/js/mode-javascript.js
+HTTP_REFERER=http://documentation-manager.com:8888/
+---

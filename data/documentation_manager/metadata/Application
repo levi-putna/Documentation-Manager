@@ -20,7 +20,8 @@
             "MyViewport",
             "NewMenu",
             "ClearTriggerField",
-            "TreeContextMenu"
+            "TreeContextMenu",
+            "MarkdownArea"
         ],
         "autoCreateViewport": true,
         "controllers": [
@@ -93,39 +94,6 @@
                 ]
             },
             "designerId": "a3deda61-ecd0-46c3-a30f-3c925896fd55"
-        },
-        {
-            "type": "basicfunction",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "fn": "setSelection",
-                "designer|params": [
-                    "record"
-                ],
-                "implHandler": [
-                    "this.selection = record;"
-                ]
-            },
-            "designerId": "3713a30c-d702-43b4-a544-a83884c4fda1"
-        },
-        {
-            "type": "basicfunction",
-            "reference": {
-                "name": "items",
-                "type": "array"
-            },
-            "codeClass": null,
-            "userConfig": {
-                "fn": "getSelection",
-                "implHandler": [
-                    "return this.section;"
-                ]
-            },
-            "designerId": "1021abd8-faba-4dce-ba80-be82f665ccd3"
         }
     ]
 }

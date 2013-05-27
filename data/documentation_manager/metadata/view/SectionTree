@@ -134,7 +134,6 @@
                                     "var dragNodeType = data.records[0].data.object_type;",
                                     "var dropNodeName = overModel.data.text;",
                                     "",
-                                    "console.log(Ext.application.getSelection());",
                                     "",
                                     "//wait until confirmation complete",
                                     "dropHandlers.wait = true;",
@@ -197,7 +196,6 @@
                 "implHandler": [
                     "e.stopEvent();",
                     "this.contextRecord = record;",
-                    "console.log(MyApp.Utilities);",
                     "",
                     "var menu = Ext.create('MyApp.view.TreeContextMenu', {});",
                     "",
